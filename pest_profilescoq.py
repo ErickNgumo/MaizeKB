@@ -13,7 +13,9 @@ pest_profiles = {
         "plant_parts_attacked": ["Leaf", "Whorl", "Cob"],
         "crop_stages_affected": ["Vegetative", "Reproductive"],
         "control_actions": ["ChemicalInsecticides", "NaturalEnemies", "PushPullSystem"],
-        "control_methods_general": ["Chemical", "Biological", "Cultural"]
+        "control_methods_general": ["Chemical", "Biological", "Cultural"],
+        "description" : "Larvae feed on leaves, whorl, and ears; highly mobile and destructive.",
+        "damage_summary":"Causes severe defoliation and reduced yields in maize fields worldwide."
     },
     "AfricanArmyworm": {
         "common_name": "AfricanArmyworm",
@@ -24,7 +26,9 @@ pest_profiles = {
         "plant_parts_attacked": ["Leaf"],
         "crop_stages_affected": ["Vegetative", "Reproductive"],
         "control_actions": ["ChemicalInsecticides", "NaturalEnemies"],
-        "control_methods_general": ["Chemical", "Biological"]
+        "control_methods_general": ["Chemical", "Biological"],
+        "description" : "Larvae feed on maize leaves, sometimes leading to complete defoliation.",
+        "damage_summary":"Causes defoliation and yield loss."
     },
     "MaizeStalkBorer": {
         "common_name": "MaizeStalkBorer",
@@ -35,7 +39,9 @@ pest_profiles = {
         "plant_parts_attacked": ["Stem"],
         "crop_stages_affected": ["Vegetative", "Reproductive"],
         "control_actions": ["CropRotation"],
-        "control_methods_general": ["Cultural"]
+        "control_methods_general": ["Cultural"],
+        "description" : "Larvae bore into maize stems, causing deadheart and lodging.",
+        "damage_summary":"Stem tunneling, deadheart, lodging, reduced nutrient uptake, yield loss."
     },
     "SpottedStemBorer": {
         "common_name": "SpottedStemBorer",
@@ -46,7 +52,9 @@ pest_profiles = {
         "plant_parts_attacked": ["Stem"],
         "crop_stages_affected": ["Vegetative", "Reproductive"],
         "control_actions": ["CropRotation"],
-        "control_methods_general": ["Cultural"]
+        "control_methods_general": ["Cultural"],
+        "description" : "Stem borer larvae bore maize stems, affecting plant growth.",
+        "damage_summary" : "Stem damage and lodging, reduced yield."
     },
     "PinkStemBorer": {
         "common_name": "PinkStemBorer",
@@ -57,7 +65,9 @@ pest_profiles = {
         "plant_parts_attacked": ["Stem"],
         "crop_stages_affected": ["Vegetative", "Reproductive"],
         "control_actions": ["CropRotation"],
-        "control_methods_general": ["Cultural"]
+        "control_methods_general": ["Cultural"],
+         "description" : "Bores into maize stems causing stem tunneling and plant weakening.",
+        "damage_summary" : "Stem tunneling, deadheart, lodging, yield loss."
     },
     "CornEarworm": {
         "common_name": "CornEarworm",
@@ -68,7 +78,9 @@ pest_profiles = {
         "plant_parts_attacked": ["Cob"],
         "crop_stages_affected": ["Reproductive"],
         "control_actions": ["ChemicalInsecticides", "NaturalEnemies"],
-        "control_methods_general": ["Chemical", "Biological"]
+        "control_methods_general": ["Chemical", "Biological"],
+         "description" : "Larvae feed on maize cobs, reducing kernel quality.",
+        "damage_summary" : "Cob damage, grain loss, reduced yield"
     },
     "Cutworm": {
         "common_name": "Cutworm",
@@ -79,7 +91,9 @@ pest_profiles = {
         "plant_parts_attacked": ["Stem"],
         "crop_stages_affected": ["Seedling"],
         "control_actions": ["ChemicalInsecticides", "FieldSanitation"],
-        "control_methods_general": ["Chemical", "Cultural"]
+        "control_methods_general": ["Chemical", "Cultural"],
+         "description" : "Larvae cut seedlings at soil level, causing deadheart in young plants.",
+        "damage_summary" : "Deadheart, reduced establishment, yield loss."
     },
     "Wireworm": {
         "common_name": "Wireworm",
@@ -90,7 +104,9 @@ pest_profiles = {
         "plant_parts_attacked": ["Root"],
         "crop_stages_affected": ["Seed"],
         "control_actions": ["ChemicalInsecticides"],
-        "control_methods_general": ["Chemical"]
+        "control_methods_general": ["Chemical"],
+         "description" : "Larvae feed on maize roots, stunting plant growth.",
+        "damage_summary" : "Root damage, reduced nutrient uptake, plant death, yield loss."
     },
     "WhiteGrub": {
         "common_name": "WhiteGrub",
@@ -101,7 +117,9 @@ pest_profiles = {
         "plant_parts_attacked": ["Root"],
         "crop_stages_affected": ["Seedling", "Vegetative"],
         "control_actions": ["ChemicalInsecticides"],
-        "control_methods_general": ["Chemical"]
+        "control_methods_general": ["Chemical"],
+         "description" : "Larvae feed on maize roots, leading to poor growth.",
+        "damage_summary" : "Root damage, stunted plants, yield loss."
     },
     "Termite": {
         "common_name": "Termite",
@@ -112,7 +130,9 @@ pest_profiles = {
         "plant_parts_attacked": ["Root"],
         "crop_stages_affected": ["Vegetative", "Reproductive"],
         "control_actions": ["FieldSanitation", "ChemicalInsecticides"],
-        "control_methods_general": ["Cultural", "Chemical"]
+        "control_methods_general": ["Cultural", "Chemical"],
+         "description" : "Feed on maize roots and stems, weakening plants.",
+        "damage_summary" : "Root and stem damage, plant death, yield loss."
     },
     "ShootFly": {
         "common_name": "ShootFly",
@@ -123,7 +143,9 @@ pest_profiles = {
         "plant_parts_attacked": ["Whorl"],
         "crop_stages_affected": ["Vegetative"],
         "control_actions": ["ResistantVarieties", "FieldSanitation"],
-        "control_methods_general": ["Integrated", "Cultural"]
+        "control_methods_general": ["Integrated", "Cultural"],
+         "description" : "Larvae feed in the central whorl causing deadheart.",
+        "damage_summary" : "Deadheart formation, reduced yield."
     },
     "Aphid": {
         "common_name": "Aphid",
@@ -134,7 +156,9 @@ pest_profiles = {
         "plant_parts_attacked": ["Leaf"],
         "crop_stages_affected": ["Vegetative", "Reproductive"],
         "control_actions": ["NaturalEnemies", "Biopesticides"],
-        "control_methods_general": ["Biological"]
+        "control_methods_general": ["Biological"],
+         "description" : "Suck sap from maize leaves and transmit viruses.",
+        "damage_summary" : "Sap loss, virus transmission, yield reduction."
     },
     "Leafhopper": {
         "common_name": "Leafhopper",
@@ -145,7 +169,9 @@ pest_profiles = {
         "plant_parts_attacked": ["Leaf"],
         "crop_stages_affected": ["Vegetative", "Reproductive"],
         "control_actions": ["NaturalEnemies"],
-        "control_methods_general": ["Biological"]
+        "control_methods_general": ["Biological"],
+         "description" : "Sucks sap and transmits maize streak virus.",
+        "damage_summary" : "Virus transmission, stunted growth, yield loss."
     },
     "Thrips": {
         "common_name": "Thrips",
@@ -156,7 +182,9 @@ pest_profiles = {
         "plant_parts_attacked": ["Leaf"],
         "crop_stages_affected": ["Vegetative", "Reproductive"],
         "control_actions": ["ChemicalInsecticides", "Biopesticides"],
-        "control_methods_general": ["Chemical", "Biological"]
+        "control_methods_general": ["Chemical", "Biological"],
+         "description" : "Feed on leaf tissues causing silvering and sap loss.",
+        "damage_summary" : "Sap loss, reduced photosynthesis, yield loss."
     },
     "Whitefly": {
         "common_name": "Whitefly",
@@ -167,7 +195,9 @@ pest_profiles = {
         "plant_parts_attacked": ["Leaf"],
         "crop_stages_affected": ["Vegetative", "Reproductive"],
         "control_actions": ["NaturalEnemies", "Biopesticides"],
-        "control_methods_general": ["Biological"]
+        "control_methods_general": ["Biological"],
+         "description" : "Feeds on maize leaves and transmits viruses.",
+        "damage_summary" : "Sap loss, virus transmission, reduced yield."
     },
     "Grasshopper": {
         "common_name": "Grasshopper",
@@ -178,7 +208,9 @@ pest_profiles = {
         "plant_parts_attacked": ["Leaf"],
         "crop_stages_affected": ["Vegetative"],
         "control_actions": ["HandPicking", "ChemicalInsecticides"],
-        "control_methods_general": ["Mechanical", "Chemical"]
+        "control_methods_general": ["Mechanical", "Chemical"],
+         "description" : "Feeds on maize leaves, sometimes causing defoliation.",
+        "damage_summary" : "Defoliation and reduced photosynthesis."
     },
     "Locust": {
         "common_name": "Locust",
@@ -189,7 +221,9 @@ pest_profiles = {
         "plant_parts_attacked": ["Leaf"],
         "crop_stages_affected": ["Vegetative"],
         "control_actions": ["ChemicalInsecticides", "NaturalEnemies"],
-        "control_methods_general": ["Chemical", "Biological"]
+        "control_methods_general": ["Chemical", "Biological"],
+         "description" : "Feeds on maize leaves in swarms.",
+        "damage_summary" : "Severe defoliation, reduced yield."
     },
     "Rootworm": {
         "common_name": "Rootworm",
@@ -200,7 +234,9 @@ pest_profiles = {
         "plant_parts_attacked": ["Root"],
         "crop_stages_affected": ["Vegetative"],
         "control_actions": ["ChemicalInsecticides", "CropRotation"],
-        "control_methods_general": ["Chemical", "Cultural"]
+        "control_methods_general": ["Chemical", "Cultural"],
+         "description" : "Larvae feed on roots, weakening plants.",
+        "damage_summary" : "Root damage, plant death, yield reduction."
     },
     "NematodePest": {
         "common_name": "NematodePest",
@@ -211,7 +247,9 @@ pest_profiles = {
         "plant_parts_attacked": ["Root"],
         "crop_stages_affected": ["Seedling", "Vegetative"],
         "control_actions": ["CropRotation", "Biopesticides"],
-        "control_methods_general": ["Cultural", "Biological"]
+        "control_methods_general": ["Cultural", "Biological"],
+         "description" : "Root-knot nematodes damage maize roots.",
+        "damage_summary" : "Root damage, stunted growth, yield loss."
     },
     "MaizeWeevil": {
         "common_name": "MaizeWeevil",
@@ -222,7 +260,9 @@ pest_profiles = {
         "plant_parts_attacked": ["Grain"],
         "crop_stages_affected": ["Storage"],
         "control_actions": ["FieldSanitation", "ChemicalInsecticides"],
-        "control_methods_general": ["Cultural", "Chemical"]
+        "control_methods_general": ["Cultural", "Chemical"],
+         "description" : "Infests stored maize grains causing weight loss.",
+        "damage_summary" : "Grain loss, reduced quality, post-harvest losses."
     },
     "LargerGrainBorer": {
         "common_name": "LargerGrainBorer",
@@ -233,7 +273,9 @@ pest_profiles = {
         "plant_parts_attacked": ["Grain"],
         "crop_stages_affected": ["Storage"],
         "control_actions": ["FieldSanitation", "ChemicalInsecticides"],
-        "control_methods_general": ["Cultural", "Chemical"]
+        "control_methods_general": ["Cultural", "Chemical"],
+         "description" : "Infests stored maize grains, tunneling kernels.",
+        "damage_summary" : "Grain loss, reduced quality, post-harvest losses."
     },
     "AngoumoisGrainMoth": {
         "common_name": "AngoumoisGrainMoth",
@@ -244,7 +286,9 @@ pest_profiles = {
         "plant_parts_attacked": ["Grain"],
         "crop_stages_affected": ["Storage"],
         "control_actions": ["ChemicalInsecticides", "NaturalEnemies"],
-        "control_methods_general": ["Chemical", "Biological"]
+        "control_methods_general": ["Chemical", "Biological"],
+         "description" : "Infests stored maize grains; larvae feed inside kernels.",
+        "damage_summary" : "Grain loss, quality deterioration"
     },
     "FlourBeetle": {
         "common_name": "FlourBeetle",
@@ -255,7 +299,9 @@ pest_profiles = {
         "plant_parts_attacked": ["Grain"],
         "crop_stages_affected": ["Storage"],
         "control_actions": ["ChemicalInsecticides"],
-        "control_methods_general": ["Chemical"]
+        "control_methods_general": ["Chemical"],
+         "description" : "Attacks stored maize grains and flour products.",
+        "damage_summary" : "Grain loss, quality deterioration."
     },
     "Rodent": {
         "common_name": "Rodent",
@@ -266,7 +312,9 @@ pest_profiles = {
         "plant_parts_attacked": ["Grain"],
         "crop_stages_affected": ["Storage"],
         "control_actions": ["HandPicking", "TrapSetting"],
-        "control_methods_general": ["Mechanical"]
+        "control_methods_general": ["Mechanical"],
+         "description" : "Feeds on stored and field maize grains.",
+        "damage_summary" : "Grain loss, reduced yield"
     },
     "Bird": {
         "common_name": "Bird",
@@ -277,6 +325,8 @@ pest_profiles = {
         "plant_parts_attacked": ["Cob", "Grain"],
         "crop_stages_affected": ["Reproductive", "Storage"],
         "control_actions": ["Scarecrows", "Netting"],
-        "control_methods_general": ["Mechanical"]
+        "control_methods_general": ["Mechanical"],
+         "description" : "Feeds on maize grains in the field and storage.",
+        "damage_summary" : "Grain loss, yield reduction."
     }
 }
