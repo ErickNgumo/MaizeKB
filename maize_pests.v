@@ -471,10 +471,9 @@ Definition Bird_fact : Fact :=
 
 
   (* ================== *)
-(* ===== QUERY ENGINE ===== *)
-(* ================== *)
+(* ===== Query Engines ===== *)
 
-(* All pests list *)
+
 
 
 Definition all_pests : list Pest :=
@@ -561,9 +560,9 @@ Definition pest_affects_stage_dec (p : Pest) (s : CropStage) : bool :=
   | _, _ => false
   end.
 
-(* ================== *)
-(* ===== QUERY FUNCTIONS ===== *)
-(* ================== *)
+
+(* -------Query Functions---------------*)
+
 (* Damage effects for a pest *)
 Definition pest_damage_effects (p : Pest) : list DamageEffect :=
   filter (fun e => causes_effect_dec p e) 
@@ -604,30 +603,12 @@ Definition controls_for_pest_list (p : Pest) : list Control :=
     (pest_controls p)
     (map control_method (pest_controls p)).
 
-(* ================== *)
-(* ===== EXAMPLES ===== *)
-(* ================== *)
+(* Example Queries *)
 
 (* Compute all pests causing YieldLoss *)
-(* Compute pests_causing_effect YieldLoss. *)
-
-(* Compute all pests attacking Cob *)
-(* Compute pests_attacking_part Cob. *)
-
-(* Compute all pests affecting Vegetative stage *)
-(* Compute pests_affecting_stage Vegetative. *)
-
+Compute pests_causing_effect YieldLoss.
 (* Compute pests causing YieldLoss AND attacking Cob *)
-(* Compute pests_by_effect_and_part YieldLoss Cob. *)
-
-(* Compute control methods for FallArmyworm *)
-(* Compute controls_for_pest_list FallArmyworm. *)
-
-
-(* ================== *)
-(* ===== EXAMPLES ===== *)
-(* ================== *)
-
+Compute pests_by_effect_and_part YieldLoss Cob.
 (* ---------- DAMAGE EFFECT QUERIES ---------- *)
 
 (* All pests causing YieldLoss *)
@@ -698,7 +679,7 @@ Compute pest_type Rodent.
 (* Type of NematodePest *)
 Compute pest_type NematodePest.
 
-(* ---------- COMBINED QUERIES ---------- *)
+
 
 (* Pests causing YieldLoss AND attacking Cob *)
 Compute pests_by_effect_and_part YieldLoss Cob.
@@ -709,7 +690,6 @@ Compute pests_by_effect_and_part ReducedPhotosynthesis Leaf.
 (* Pests causing PlantDeath AND attacking Root *)
 Compute pests_by_effect_and_part PlantDeath Root.
 
-(* ---------- ADDITIONAL CUSTOM QUERIES ---------- *)
 
 (* Pests causing YieldLoss AND affecting Storage stage *)
 Compute filter (fun p => causes_effect_dec p YieldLoss && pest_affects_stage_dec p Storage) all_pests.

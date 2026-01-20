@@ -1,7 +1,5 @@
-# ================================
-# pest_profiles_data.py
-# Complete maize pest profiles for Streamlit
-# ================================
+# pest_profilecoq.py
+
 
 pest_profiles = {
     "FallArmyworm": {
